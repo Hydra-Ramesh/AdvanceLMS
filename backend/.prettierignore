@@ -1,0 +1,21 @@
+# Ignore node_modules
+node_modules/
+
+# Ignore build output directories
+dist/
+build/
+
+# Ignore specific files
+example.js
+
+# Ignore all files in a specific folder
+logs/
+
+# Ignore all files with a specific extension
+*.min.js
+
+# Ignore all test files in any subdirectory
+**/*.test.js
+
+# Ignore specific files in a nested folder
+src/ignored-folder/*.js
